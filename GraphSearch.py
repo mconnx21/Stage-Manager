@@ -10,12 +10,13 @@ u = Node("Varsity Ballet", ["P03", "P05", "P06", "P08"], "Ballet", "Varsity" )
 s = Node("Ballet Duet", ["P03", "P05"], "Ballet", "Small Group")
 t = Node("Miranda Solo", ["P09"], "Contemp", "Solo")
 a = Node("Zarmina Solo", ["P10"], "Contemp", "Solo")
+b = Node("Ruby solo", ["P04"], "HipHop", "Solo")
 opening = Node("Opening", ["P01" , "P02", "P03", "P04", "P05", "P06",  "P07", "P08", "P09", "P10"], "Jazz", "Troupe" )
 finale = Node("Finale", ["P01" , "P02", "P03", "P04", "P05", "P06", "P07", "P08"], "Jazz", "Troupe" )
 dummyNode = Node("Dummy", [], "", "")
 
 
-nodes = [opening, x,y,z,w,u,s,t,a]  # MUST put opening first in this list for correctness
+nodes = [opening, x,y,z,w,u,s,t,a, b]  # MUST put opening first in this list for correctness
 n = len(nodes)
 
 edges = [None] * n 
